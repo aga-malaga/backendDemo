@@ -1,4 +1,5 @@
-## BackendDemo is a small application for discovering popular repositories on GitHub. It allows user:<br>
+## BackendDemo is a small application for discovering popular repositories on GitHub. 
+It allows user:<br>
   - to list most popular repositories created from given date onwards<br>
   - to add given repository to their favourites
   - to list their favourite repositories
