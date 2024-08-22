@@ -57,8 +57,7 @@ class GithubServiceImpl implements GithubFacade {
                 .onStatus(HttpStatusCode::is4xxClientError, (request, response) -> {
                     throw new ClientException(response.getStatusCode().value(), response.getStatusText());
                 })
-                .body(new ParameterizedTypeReference<>() {
-                });
+                .body(new ParameterizedTypeReference<>() {});
     }
 
     private URI buildUri(String query, Integer perPage) {
