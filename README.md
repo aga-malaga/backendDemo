@@ -18,12 +18,12 @@ It allows user:<br>
  start the application with Gradle Wrapper:
 ```markdown
   cd backendDemo
- ./gradlew bootRun
+ ./gradlew bootRun (ON WINDOWS: .\gradlew bootRun)
 ```
  build the application with Gradle Wrapper and then start the JAR file:
 ```markdown
   cd backendDemo
- ./gradlew build
+ ./gradlew build (ON WINDOWS: .\gradlew.bat build)
   cd build/libs
   java -jar backendDemo.jar
 ```
