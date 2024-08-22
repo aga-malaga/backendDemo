@@ -17,7 +17,7 @@ It allows user:<br>
 
  start the application with Gradle Wrapper:
 ```markdown
-  cd RepoViewer
+  cd backendDemo
  ./gradlew bootRun
 ```
  build the application with Gradle Wrapper and then start the JAR file:
